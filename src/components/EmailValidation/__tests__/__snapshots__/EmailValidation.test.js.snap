@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailValidation Button matches snapshot 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  disabled={false}
+  id="proceed"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  />
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`EmailValidation renders email verification correctly 1`] = `
+<div
+  styles={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fdfdfd",
+      "display": "flex",
+      "fontSize": "30",
+      "height": "100%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <div
+    className="MuiPaper-root MuiCard-root MuiPaper-outlined MuiPaper-rounded"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "height": "50%",
+        "margin": "auto",
+        "marginTop": "5%",
+        "padding": "1% 4%",
+        "width": "30%",
+      }
+    }
+  >
+    <div
+      className="MuiCardContent-root"
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom MuiTypography-alignCenter"
+      >
+        Hi 
+        ,
+      </h2>
+      <p
+        className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-alignCenter"
+        paddingTop="30"
+      >
+        An email with confirmation link has been sent to
+         
+        <a
+          href=""
+        />
+        . Please verify by your identity by clicking on the link and come back here.
+      </p>
+    </div>
+    <div
+      className="MuiCardActions-root MuiCardActions-spacing"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#24a0ed",
+            "color": "#FFFFFF",
+            "display": "flex",
+            "justifyContent": "center",
+            "paddingLeft": "35%",
+            "paddingRight": "35%",
+          }
+        }
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Verify Email
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
